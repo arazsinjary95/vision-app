@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CameraVC.swift
 //  vision-app
 //
 //  Created by Araz Sinjary on 7/13/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CameraVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
