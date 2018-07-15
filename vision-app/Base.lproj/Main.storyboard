@@ -59,6 +59,11 @@
                                     <constraint firstAttribute="width" constant="75" id="gQg-O2-bzr"/>
                                 </constraints>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-i1-fUH">
+                                <rect key="frame" x="307" y="573" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f2-bb-1jg" customClass="RoundedShadowButton" customModule="vision_app" customModuleProvider="target">
                                 <rect key="frame" x="20" y="615" width="100" height="32"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -98,6 +103,7 @@
                         <outlet property="flashBtn" destination="4f2-bb-1jg" id="yrt-1R-SGN"/>
                         <outlet property="identifivationLbl" destination="wrz-1F-LPI" id="Uvk-VT-Frw"/>
                         <outlet property="roundedLblView" destination="AxX-QP-wY0" id="C0b-Kg-R49"/>
+                        <outlet property="spinner" destination="2fe-i1-fUH" id="2in-ZN-VAe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
